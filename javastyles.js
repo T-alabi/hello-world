@@ -4,11 +4,12 @@ function sayHello() {
 
 }
  function helloPopup() {
-   var p =document.getElementById("popup");
+   var p = document.getElementById("popup");
    p.innerHTML = alert("hello, world!");
-   p.innerHTML = "Hello,World! (again)";
+   p.innerHTML = " "
  }
- function console() {
+ function button() {
    var p = document.getElementById("console");
-   p.innerHTML =console.log("Hello, World!");
+   p.innerHTML = console.log("hello, console!");
+   p.innerHTML = " "
  }

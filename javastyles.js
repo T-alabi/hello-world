@@ -13,3 +13,8 @@ function sayHello() {
    p.innerHTML = console.log("hello, console!");
    p.innerHTML = " "
  }
+ function heystranger() {
+   var person = prompt("why dont you tell me your name", "");
+   var p = document.getElementById("hey").innerHTML =
+        "Hello " + person + ", how are you today?";
+ }
